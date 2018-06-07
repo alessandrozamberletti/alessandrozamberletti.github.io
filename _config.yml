@@ -1,4 +1,0 @@
-name: Alessandro Zamberletti Personal Webpage
-markdown: kramdown
-plugins:
-  - jekyll-sitemap
