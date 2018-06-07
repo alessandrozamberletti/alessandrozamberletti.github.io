@@ -18,7 +18,7 @@ $(window).scroll(function() {
 	});
 });
 
-$(window).scroll(function() {
+/*$(window).scroll(function() {
 	$('.personal-info').each(function(){
 	var imagePos = $(this).offset().top;
 	var topOfWindow = $(window).scrollTop();
@@ -26,7 +26,7 @@ $(window).scroll(function() {
 			$(this).addClass("animated flipInX");
 		}
 	});
-});		
+});*/
 
 $(window).scroll(function() {
 	$('#portfolio .item').each(function(){
