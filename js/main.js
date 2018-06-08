@@ -5,6 +5,12 @@ $(window).load(function() {
     	$("#mask").delay(1000).fadeOut("slow");
     });
 
+/* Antispam filter */
+$('a.mail').on('click', function(){
+    var href = $(this).attr('href');
+    $(this).attr('href', href.replace('nospampls.', 'gmail.'));
+});
+
 /* Flexslider */
 $(window).load(function() {
   "use strict";

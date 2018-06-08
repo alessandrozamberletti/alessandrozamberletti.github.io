@@ -274,37 +274,27 @@ a:hover {
 	font-weight: 300;
 }
 
-.personal-info ul {
-	padding: 0px;
+.profile-content {
+	height: 48px;
+	margin-bottom: 10px;
+    display: inline-block;
+    align-items: center;
 }
 
-.personal-info li {
-	float: left;
-	list-style: none;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	height: 43px;
-	border: 1px solid #ededed;
-	overflow: hidden;
+.profile-content img {
+	max-height: 100%;
 }
 
-.personal-info li em {
-	padding: 0 15px;
-	line-height: 43px;
-	font-size: 16px;
-	color: #9b9b9b;
-	font-weight: 400;
-	font-style: normal;
-}
-
-.personal-info li span {
+.profile-content a {
 	padding: 11px 15px;
-	line-height: 42px;
-	font-size: 16px;
-	color: #484848;
-	font-weight: 400;
-	background: #f6f6f6;
-	border-left: 1px solid #ededed;
+    font-size: 16px;
+    color: #484848;
+    background: #f6f6f6;
+    margin-left: 5px;
+}
+
+.econtact {
+	width: 45%;
 }
 
 /*-------------------------------------------- 
