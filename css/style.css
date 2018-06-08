@@ -32,6 +32,8 @@ Version:	1.0
 body, html {
 	height: 100%;
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body {
@@ -1070,12 +1072,21 @@ footer p {
 }
 
 .loader {
-	position: absolute;
+	position: relative;
 	width: 40px;
 	height: 40px;
 	margin: -20px 0 0 -20px;
 	top: 50%;
 	left: 50%;
+}
+
+.loader img {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
 }
 
 /* #Tablet (Portrait)
@@ -1197,6 +1208,15 @@ footer {
 
 /* #Mobile (Landscape)
 ================================================== */
+
+@media all and (max-width: 600px) and (orientation:portrait) 
+{
+    /* styles here */
+    .main-content {
+	margin: 0px 0;
+	overflow: hidden;
+}
+}
 
 /* Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
