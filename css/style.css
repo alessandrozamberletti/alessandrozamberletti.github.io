@@ -79,7 +79,7 @@ a:hover {
 }
 
 .profile-pic {
-	background: url(../images/profile-avatar.jpeg) no-repeat;
+	background: url(../images/profile.png) no-repeat;
 	height: 266px;
 	position: relative;
 	background-size: cover;
