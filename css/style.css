@@ -274,6 +274,10 @@ a:hover {
 	font-weight: 300;
 }
 
+.profile-summary {
+	display: inline-grid;
+}
+
 .profile-content {
 	height: 48px;
 	margin-bottom: 10px;
