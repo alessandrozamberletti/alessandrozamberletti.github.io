@@ -235,8 +235,8 @@ a:hover {
 	max-height: 100%;
 }
 
-.profile-content img:hover {
-	filter: opacity(.4);
+.profile-content:hover {
+	filter: contrast(80%);
 }
     
 .profile-content a {
